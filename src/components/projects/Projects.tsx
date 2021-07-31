@@ -6,7 +6,6 @@ type ProjectsType = {
 };
 export type ProjectType = {
   name: string;
-  image: string;
   deployPath: string;
   sourcePath: string;
 };
@@ -14,12 +13,11 @@ export type ProjectType = {
 function Projects({projectsInfo}: ProjectsType) {
   let row: JSX.Element[] = [];
 
-  projectsInfo.forEach(({name, image, deployPath, sourcePath}, id) => {
+  projectsInfo.forEach(({name, deployPath, sourcePath}, id) => {
     row.push(
       <Col className="mb-4" key={id} >
         <Project
           name={name}
-          image={image}
           deployPath={deployPath}
           sourcePath={sourcePath}
         />

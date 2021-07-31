@@ -4,17 +4,18 @@ import {RiGithubFill} from 'react-icons/ri';
 
 type ProjectType = {
   name: string,
-  image: string,
   deployPath: string,
   sourcePath: string,
 }
 
-function Project({name, image, deployPath, sourcePath}: ProjectType) {
+function Project({name, deployPath, sourcePath}: ProjectType) {
+  const projectImg = require(`../../projectImages/${name}.png`);
+
   return (
     <div className="project" data-testid='project-div'>
       <div>
         <div className="img-div">
-          <img src={image} alt="project 1" className="img-fluid mx-auto" />
+          <img src={projectImg.default} alt="project 1" className="img-fluid mx-auto" />
         </div>
       </div>
 
