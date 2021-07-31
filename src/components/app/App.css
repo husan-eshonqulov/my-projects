@@ -1,0 +1,14 @@
+.profile-img {
+    width: 220px;
+    height: 220px;
+}
+
+.social-media:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 374px) {
+    .profile-name {
+        font-size: 2em;
+    }
+}

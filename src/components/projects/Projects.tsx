@@ -4,7 +4,7 @@ import Project from "../project/Project";
 type ProjectsType = {
   projectsInfo: Array<ProjectType>;
 };
-type ProjectType = {
+export type ProjectType = {
   name: string;
   image: string;
   deployPath: string;
