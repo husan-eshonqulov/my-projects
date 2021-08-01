@@ -20,17 +20,17 @@ function App() {
           />
           <h1 className="mt-1 mb-3 profile-name">{data[0][0]}</h1>
           <Row className="mb-5">
-            <Col>
+            <Col className="sm-icon">
               <a href={data[0][1]} target="_blank" rel="noreferrer" className="social-media">
                 <IoLogoLinkedin size="74px" color="#0e76a8" />
               </a>
             </Col>
-            <Col>
+            <Col className="sm-icon">
               <a href={data[0][2]} target="_balnk" rel="noreferrer" className="social-media">
                 <IoLogoGithub size="70px" color="#333" />
               </a>
             </Col>
-            <Col>
+            <Col className="sm-icon">
               <a href={data[0][3]} target="_blank" rel="noreferrer" className="social-media">
                 <RiTelegramFill size="73px" color="#0088cc" />
               </a>

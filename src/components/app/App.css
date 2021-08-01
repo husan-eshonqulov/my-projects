@@ -1,15 +1,20 @@
 .profile-img {
-    width: 220px;
-    height: 220px;
-    border: 3px solid #999;
+  width: 220px;
+  height: 220px;
+  border: 3px solid #999;
 }
 
 .social-media:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.sm-icon:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
 @media (max-width: 374px) {
-    .profile-name {
-        font-size: 2em;
-    }
+  .profile-name {
+    font-size: 2em;
+  }
 }
