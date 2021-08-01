@@ -6,7 +6,6 @@ import profileImg from "../../profileImage/profileImg.jpg";
 import { Row, Col } from "react-bootstrap";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoLinkedin } from "react-icons/io";
-import { ImTelegram } from "react-icons/im";
 import { RiTelegramFill} from 'react-icons/ri';
 
 function App() {
