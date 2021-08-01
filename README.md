@@ -53,3 +53,7 @@ __2 - Eslatma__
 
 ![note 2](https://i.ibb.co/XzwhrLW/2021-08-01-11-58.png)
 ![note 2](https://i.ibb.co/LvCfFpw/2021-08-01-11-59.png)
+
+__3 - Eslatma__
+
+> `projectImages` papkasi ichidagi barcha rasmlar nisbati bir xilda bo'lishi talab etilmaydi. Lekin ularni bir xilda olish tavsiya etiladi.
