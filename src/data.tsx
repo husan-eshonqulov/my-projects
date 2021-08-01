@@ -42,14 +42,19 @@ const data: DataType = [
       sourcePath: "https://github.com/Husan-Eshonqulov/Worldwide-Holidays",
     },
     {
-      name: "Light Switch",
-      deployPath: "https://light-switch-00.netlify.app/",
-      sourcePath: "https://github.com/Husan-Eshonqulov/light-switch",
+      name: "My Projects",
+      deployPath: "https://my-projects-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/my-projects",
     },
     {
       name: "Programmers Day",
       deployPath: "https://programmers-day-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/programmers-day",
+    },
+    {
+      name: "Light Switch",
+      deployPath: "https://light-switch-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/light-switch",
     },
     {
       name: "ToDo app",
