@@ -7,6 +7,7 @@ import { Row, Col } from "react-bootstrap";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoLinkedin } from "react-icons/io";
 import { ImTelegram } from "react-icons/im";
+import { RiTelegramFill} from 'react-icons/ri';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Row className="mb-5">
             <Col>
               <a href={data[0][1]} target="_blank" rel="noreferrer" className="social-media">
-                <IoLogoLinkedin size="70px" color="#0e76a8" />
+                <IoLogoLinkedin size="74px" color="#0e76a8" />
               </a>
             </Col>
             <Col>
@@ -32,7 +33,7 @@ function App() {
             </Col>
             <Col>
               <a href={data[0][3]} target="_blank" rel="noreferrer" className="social-media">
-                <ImTelegram size="70px" color="#0088cc" />
+                <RiTelegramFill size="73px" color="#0088cc" />
               </a>
             </Col>
           </Row>
@@ -40,6 +41,9 @@ function App() {
       </div>
       <div className="mt-3">
         <Projects projectsInfo={data[1]} />
+      </div>
+      <div className="d-flex justify-content-center mt-3 mb-3">
+        <h5>&copy; by <a href="https://it-forward.github.io/" target="_balnk">Pay IT Forward</a></h5>
       </div>
     </Container>
   );
