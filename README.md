@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Proyektlar Shabloni
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu repozitoritdan foydalanib siz o'z proyektlaringizni bitta joyga yig'ib, foydalanuvchiga sodda UI ko'rinishida taqdim etishingiz mumkin.
 
-## Available Scripts
+Proyekt __react app__ ko'rinishida qilingan bo'lib, __typescript__ da yozilgan. Va har bir komponenta uchun __test__ lar ham mavjud.
 
-In the project directory, you can run:
+Sizni saytizni chizib beradigan komponenta `App.tsx` komponentasi hisoblanadi.
 
-### `yarn start`
+Shablonda ishlatiladigan barcha rasmlar formati `.png` formatda bo'lishi shart. Profil egasi rasmi `profileImage` papkasi ichida, qilingan proyektlar rasmlari `projectImages` papkasi ichida turishi kerak.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Shablon foydalanuvchi taqdim etayotgan ma'lumotlar asosida quriladi. Bu ma'lumotlar `data.tsx` faylida turishi kerak.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+_data.tsx_ faylida __data__ degan o'zgaruvchi yaratilgan. Bu o'zgaruvchi _array_ ko'rinishida bo'lib, u __ikkita__ elementdan tashkil topgan.
 
-### `yarn test`
+Birinchi element ham _array_ ko'rinishida bo'lib, u __to'rtta__ __string__ elementdan tashkil topgan. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. profil egasini __ism - familiyasi__
+1. profil egasini __linkedin linki__
+1. profil egasini __github linki__
+1. profil egasini __telegram linki__
 
-### `yarn build`
+Ikkinchi element qilingan proyektlar ma'lumotlari uchun ajratilgan bo'lib, u ham _array_ ko'rinishida bo'ladi. Bu array elementlari __obyekt__ shaklida bo'lib, har bir obyekt ma'lum bitta qilingan proyekt uchun bag'ishlangan bo'ladi.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bu obyekt __uchta__ `name, deployPath, sourcePath` propertylaridan tashkil toplgan. Bu propertylar ham __string__ ko'rinishida bo'ladi.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. name - __proyekt nomi__ uchun
+1. deployPath - __proyektni ko'rish__ uchun link
+1. sourcePath - __proyekt kodlarini ko'rish__ uchun link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Siz _data_ o'zgaruvchisini yuqorida aytilgandek to'ldirshingiz, App.tsx komponentasi uchun o'z ishini ustalik bilan qilishiga imkon yaratgan bo'ladi.
 
-### `yarn eject`
+__1 - Eslatma__
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> `profileImage` papkasi ichidagi rasm nomi aynan `profileImg.png` shaklida bo'lishi kerak.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+__2 - Eslatma__
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Qilingan proyekt nomi va bu proyektni `projectImages` papkasidagi unga mos rasm nomi aynan bir xil bo'lishi kerak.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
