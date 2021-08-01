@@ -22,6 +22,16 @@ const data: DataType = [
       sourcePath: "https://github.com/Husan-Eshonqulov/stopwatch/",
     },
     {
+      name: "Find the Numbers game",
+      deployPath: "https://find-the-numbers-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/find-the-numbers",
+    },
+    {
+      name: "Number to Text",
+      deployPath: "https://number-to-text-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/number-to-text",
+    },
+    {
       name: "Weather Info",
       deployPath: "https://weather-map-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/weather-map",
@@ -30,6 +40,11 @@ const data: DataType = [
       name: "World Wide Holidays",
       deployPath: "https://worldwide-holidays-00.netlify.app/",
       sourcePath: "https://github.com/Husan-Eshonqulov/Worldwide-Holidays",
+    },
+    {
+      name: "Light Switch",
+      deployPath: "https://light-switch-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/light-switch",
     },
     {
       name: "Programmers Day",
