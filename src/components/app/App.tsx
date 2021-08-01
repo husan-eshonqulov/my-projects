@@ -43,7 +43,7 @@ function App() {
         <Projects projectsInfo={data[1]} />
       </div>
       <div className="d-flex justify-content-center mt-3 mb-3">
-        <h5>&copy; by <a href="https://it-forward.github.io/" target="_balnk">Pay IT Forward</a></h5>
+        <h5>&copy; from <a href="https://it-forward.github.io/" target="_balnk">Pay IT Forward</a></h5>
       </div>
     </Container>
   );
