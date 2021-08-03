@@ -49,7 +49,7 @@ __1 - Eslatma__
 
 __2 - Eslatma__
 
-> Qilingan proyekt nomi va bu proyektni `projectImages` papkasidagi unga mos rasm nomi aynan bir xil bo'lishi kerak.
+> Qilingan proyekt nomi va bu proyektni `projectImages` papkasidagi unga mos rasm nomi aynan bir xil bo'lishi kerak. Va bu nom `defaultProjectImg` bo'lishi mumkin emas.
 
 ![note 2](https://i.ibb.co/XzwhrLW/2021-08-01-11-58.png)
 ![note 2](https://i.ibb.co/LvCfFpw/2021-08-01-11-59.png)
