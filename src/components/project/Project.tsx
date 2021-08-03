@@ -9,7 +9,14 @@ type ProjectType = {
 }
 
 function Project({name, deployPath, sourcePath}: ProjectType) {
-  const projectImg = require(`../../projectImages/${name}.png`);
+  let projectImg;
+
+  try {
+    projectImg = require(`../../projectImages/${name}.png`);
+  } catch(err) {
+    console.log(err);
+    projectImg = require(`../../projectImages/defaultProjectImg.png`);
+  }
 
   return (
     <div className="project" data-testid='project-div'>
