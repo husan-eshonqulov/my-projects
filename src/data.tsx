@@ -1,4 +1,4 @@
-import {ProjectType} from './components/projects/Projects';
+import { ProjectType } from "./components/projects/Projects";
 
 type DataType = [ProfileType, Array<ProjectType>];
 type ProfileType = [string, string, string, string];
@@ -20,6 +20,11 @@ const data: DataType = [
       name: "Stopwatch",
       deployPath: "https://stopwatch-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/stopwatch/",
+    },
+    {
+      name: "Calculator",
+      deployPath: "https://calculator-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/calculator",
     },
     {
       name: "Find the Numbers game",
@@ -59,7 +64,8 @@ const data: DataType = [
     {
       name: "ToDo app",
       deployPath: "https://to-do-list-00.netlify.app",
-      sourcePath: "https://github.com/Husan-Eshonqulov/to-do-list-1-last-version",
+      sourcePath:
+        "https://github.com/Husan-Eshonqulov/to-do-list-1-last-version",
     },
   ],
 ];
