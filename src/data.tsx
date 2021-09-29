@@ -13,7 +13,7 @@ const data: DataType = [
   [
     {
       name: "Rock Paper Scissors game",
-      deployPath: "https://rock-paper-scissors-game-00.netlify.app/",
+      deployPath: "https://rock-paper-scissors-00.netlify.app/",
       sourcePath: "https://github.com/Husan-Eshonqulov/rock-paper-scissors",
     },
     {
@@ -30,6 +30,11 @@ const data: DataType = [
       name: "Find the Numbers game",
       deployPath: "https://find-the-numbers-00.netlify.app/",
       sourcePath: "https://github.com/Husan-Eshonqulov/find-the-numbers",
+    },
+    {
+      name: "Tic Tac Toe game",
+      deployPath: "https://tic-tac-toe-game-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/tic-tac-toe",
     },
     {
       name: "Number to Text",
