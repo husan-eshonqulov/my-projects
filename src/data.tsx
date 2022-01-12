@@ -27,14 +27,19 @@ const data: DataType = [
       sourcePath: "https://github.com/Husan-Eshonqulov/calculator",
     },
     {
+      name: "Tic Tac Toe game",
+      deployPath: "https://tic-tac-toe-game-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/tic-tac-toe",
+    },
+    {
       name: "Find the Numbers game",
       deployPath: "https://find-the-numbers-00.netlify.app/",
       sourcePath: "https://github.com/Husan-Eshonqulov/find-the-numbers",
     },
     {
-      name: "Tic Tac Toe game",
-      deployPath: "https://tic-tac-toe-game-00.netlify.app/",
-      sourcePath: "https://github.com/Husan-Eshonqulov/tic-tac-toe",
+      name: "Slide Number Puzzle",
+      deployPath: "https://slide-number-puzzle-00.netlify.app/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/slide-number-puzzle",
     },
     {
       name: "Number to Text",
