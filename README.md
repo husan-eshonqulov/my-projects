@@ -1,6 +1,6 @@
 # Proyektlar Shabloni
 
-Bu repozitoritdan foydalanib siz o'z proyektlaringizni bitta joyga yig'ib, foydalanuvchiga sodda UI ko'rinishida taqdim etishingiz mumkin.
+Bu repozitoridan foydalanib siz o'z proyektlaringizni bitta joyga yig'ib, foydalanuvchiga sodda UI ko'rinishida taqdim etishingiz mumkin.
 
 ![web site image](https://i.ibb.co/qYtVvXc/2021-08-01-11-34.png)
 
@@ -10,7 +10,7 @@ Sizni saytizni chizib beradigan komponenta `App.tsx` komponentasi hisoblanadi.
 
 ![app comp image](https://i.ibb.co/vv3Y6MY/2021-08-01-09-57.png)
 
-Shablonda ishlatiladigan barcha rasmlar formati `.png` formatda bo'lishi shart. Profil egasi rasmi `profileImage` papkasi ichida, qilingan proyektlar rasmlari `projectImages` papkasi ichida turishi kerak.
+Shablonda ishlatiladigan barcha rasmlar formati `.png` formatda bo'lishi shart. Profil egasi rasmi `profileImage` papkasi ichida, qilingan proyektlar rasmlari esa `projectImages` papkasi ichida turishi kerak.
 
 ![image forders](https://i.ibb.co/bzy5QBX/2021-08-01-10-02.png)
 
@@ -33,7 +33,7 @@ Birinchi element ham _array_ ko'rinishida bo'lib, u __to'rtta__ __string__ eleme
 
 Ikkinchi element qilingan proyektlar ma'lumotlari uchun ajratilgan bo'lib, u ham _array_ ko'rinishida bo'ladi. Bu array elementlari __obyekt__ shaklida bo'lib, har bir obyekt ma'lum bitta qilingan proyekt uchun bag'ishlangan bo'ladi.
 
-Bu obyekt __uchta__ `name, deployPath, sourcePath` propertylaridan tashkil toplgan. Bu propertylar ham __string__ ko'rinishida bo'ladi.
+Bu obyekt __uchta__ `name, deployPath, sourcePath` propertylaridan tashkil topgan. Bu propertylar ham __string__ ko'rinishida bo'ladi.
 
 1. name - __proyekt nomi__ uchun
 1. deployPath - __proyektni ko'rish__ uchun link
@@ -41,7 +41,7 @@ Bu obyekt __uchta__ `name, deployPath, sourcePath` propertylaridan tashkil toplg
 
 ![data[1] element](https://i.ibb.co/1rvY0w9/2021-08-01-11-54-1.png)
 
-Siz _data_ o'zgaruvchisini yuqorida aytilgandek to'ldirshingiz, App.tsx komponentasi uchun o'z ishini ustalik bilan qilishiga imkon yaratgan bo'ladi.
+Siz _data_ o'zgaruvchisini yuqorida aytilgandek to'ldirishingiz, App.tsx komponentasi uchun o'z ishini ustalik bilan qilishiga imkon yaratgan bo'ladi.
 
 __1 - Eslatma__
 
