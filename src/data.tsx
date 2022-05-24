@@ -73,9 +73,9 @@ const data: DataType = [
     },
     {
       name: "ToDo app",
-      deployPath: "https://to-do-list-00.netlify.app",
+      deployPath: "https://todo-00.netlify.app/",
       sourcePath:
-        "https://github.com/Husan-Eshonqulov/to-do-list-1-last-version",
+        "https://github.com/husan-eshonqulov/todo-list",
     },
   ],
 ];
