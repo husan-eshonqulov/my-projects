@@ -17,6 +17,11 @@ const data: DataType = [
       sourcePath: "https://github.com/husan-eshonqulov/jobs-api",
     },
     {
+      name: "Chat App",
+      deployPath: "https://chat-app-wavq.onrender.com",
+      sourcePath: "https://github.com/husan-eshonqulov/chat-app",
+    },
+    {
       name: "Rock Paper Scissors game",
       deployPath: "https://rock-paper-scissors-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/rock-paper-scissors",
