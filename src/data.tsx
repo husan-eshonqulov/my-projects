@@ -6,44 +6,49 @@ type ProfileType = [string, string, string, string];
 const data: DataType = [
   [
     "Husan Eshonqulov",
-    "https://www.linkedin.com/in/husan-eshonqulov/",
-    "https://github.com/Husan-Eshonqulov",
+    "https://linkedin.com/in/husan-eshonqulov",
+    "https://github.com/husan-eshonqulov",
     "https://t.me/Husan_Eshonqulov_00",
   ],
   [
     {
+      name: "Jobs API",
+      deployPath: "https://jobs-api.netlify.app",
+      sourcePath: "https://github.com/husan-eshonqulov/jobs-api",
+    },
+    {
       name: "Rock Paper Scissors game",
-      deployPath: "https://rock-paper-scissors-00.netlify.app/",
+      deployPath: "https://rock-paper-scissors-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/rock-paper-scissors",
     },
     {
       name: "Stopwatch",
       deployPath: "https://stopwatch-00.netlify.app",
-      sourcePath: "https://github.com/Husan-Eshonqulov/stopwatch/",
+      sourcePath: "https://github.com/Husan-Eshonqulov/stopwatch",
     },
     {
       name: "Calculator",
-      deployPath: "https://calculator-00.netlify.app/",
+      deployPath: "https://calculator-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/calculator",
     },
     {
       name: "Tic Tac Toe game",
-      deployPath: "https://tic-tac-toe-game-00.netlify.app/",
+      deployPath: "https://tic-tac-toe-game-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/tic-tac-toe",
     },
     {
       name: "Find the Numbers game",
-      deployPath: "https://find-the-numbers-00.netlify.app/",
+      deployPath: "https://find-the-numbers-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/find-the-numbers",
     },
     {
       name: "Slide Number Puzzle",
-      deployPath: "https://slide-number-puzzle-00.netlify.app/",
+      deployPath: "https://slide-number-puzzle-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/slide-number-puzzle",
     },
     {
       name: "Number to Text",
-      deployPath: "https://number-to-text-00.netlify.app/",
+      deployPath: "https://number-to-text-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/number-to-text",
     },
     {
@@ -53,12 +58,12 @@ const data: DataType = [
     },
     {
       name: "World Wide Holidays",
-      deployPath: "https://worldwide-holidays-00.netlify.app/",
+      deployPath: "https://worldwide-holidays-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/Worldwide-Holidays",
     },
     {
       name: "My Projects",
-      deployPath: "https://my-projects-00.netlify.app/",
+      deployPath: "https://my-projects-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/my-projects",
     },
     {
@@ -68,12 +73,12 @@ const data: DataType = [
     },
     {
       name: "Light Switch",
-      deployPath: "https://light-switch-00.netlify.app/",
+      deployPath: "https://light-switch-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/light-switch",
     },
     {
       name: "ToDo app",
-      deployPath: "https://todo-00.netlify.app/",
+      deployPath: "https://todo-00.netlify.app",
       sourcePath:
         "https://github.com/husan-eshonqulov/todo-list",
     },
