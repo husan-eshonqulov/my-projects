@@ -8,7 +8,7 @@ const data: DataType = [
     "Husan Eshonqulov",
     "https://linkedin.com/in/husan-eshonqulov",
     "https://github.com/husan-eshonqulov",
-    "https://t.me/Husan_Eshonqulov_00",
+    "https://t.me/husan_eshonqulov",
   ],
   [
     {
