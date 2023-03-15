@@ -22,6 +22,16 @@ const data: DataType = [
       sourcePath: "https://github.com/husan-eshonqulov/chat-app",
     },
     {
+      name: "Tank Battle",
+      deployPath: "https://scratch.mit.edu/projects/599539683/fullscreen",
+      sourcePath: "https://scratch.mit.edu/projects/599539683/editor",
+    },
+    {
+      name: "Chrome Dino",
+      deployPath: "https://scratch.mit.edu/projects/764332091/fullscreen",
+      sourcePath: "https://scratch.mit.edu/projects/764332091/editor",
+    },
+    {
       name: "Rock Paper Scissors game",
       deployPath: "https://rock-paper-scissors-00.netlify.app",
       sourcePath: "https://github.com/Husan-Eshonqulov/rock-paper-scissors",
