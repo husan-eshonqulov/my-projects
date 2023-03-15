@@ -25,7 +25,7 @@ function Projects({ projectsTitle, projectsInfo }: ProjectsType) {
 
   return (
     <div>
-      <h4 className="my-5 text-center">{projectsTitle}</h4>
+      <h3 className="my-5 text-center">{projectsTitle}</h3>
       <Row xs={1} md={2} lg={3} data-testid="projects">
         {row}
       </Row>
