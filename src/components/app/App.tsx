@@ -1,18 +1,18 @@
-import "./App.css";
-import Projects from "../projects/Projects";
-import { Container } from "react-bootstrap";
-import data from "../../data";
-import { Row, Col } from "react-bootstrap";
-import { IoLogoGithub } from "react-icons/io";
-import { IoLogoLinkedin } from "react-icons/io";
-import { RiTelegramFill } from "react-icons/ri";
-import { BsFillPersonFill } from "react-icons/bs";
+import './App.css';
+import Projects from '../projects/Projects';
+import { Container } from 'react-bootstrap';
+import data from '../../data';
+import { Row, Col } from 'react-bootstrap';
+import { IoLogoGithub } from 'react-icons/io';
+import { IoLogoLinkedin } from 'react-icons/io';
+import { RiTelegramFill } from 'react-icons/ri';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 function App() {
   let profileImg;
 
   try {
-    profileImg = require("../../profileImage/profileImg.png").default;
+    profileImg = require('../../profileImage/profileImg.png').default;
   } catch (err) {
     console.log(err);
     profileImg = <BsFillPersonFill />;
@@ -59,11 +59,13 @@ function App() {
         </div>
       </div>
       <div className="mt-3">
-        <Projects projectsInfo={data[1]} />
+        {data[1].map((projects) => (
+          <Projects {...projects} />
+        ))}
       </div>
       <div className="d-flex justify-content-center mt-3 mb-3">
         <h5>
-          &copy; from{" "}
+          &copy; from{' '}
           <a href="https://it-forward.github.io/" target="_balnk">
             Pay IT Forward
           </a>
@@ -74,7 +76,7 @@ function App() {
 }
 
 function makeProfileImg(img: string | JSX.Element) {
-  if (typeof img === "string") {
+  if (typeof img === 'string') {
     return (
       <img src={img} alt="profile" className="profile-img rounded-circle" />
     );

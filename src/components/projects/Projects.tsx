@@ -1,34 +1,35 @@
-import { Row, Col } from "react-bootstrap";
-import Project from "../project/Project";
+import { Row, Col } from 'react-bootstrap';
+import Project from '../project/Project';
 
-type ProjectsType = {
+export type ProjectsType = {
+  projectsTitle: String | null;
   projectsInfo: Array<ProjectType>;
 };
+
 export type ProjectType = {
   name: string;
   deployPath: string;
   sourcePath: string;
 };
 
-function Projects({projectsInfo}: ProjectsType) {
+function Projects({ projectsTitle, projectsInfo }: ProjectsType) {
   let row: JSX.Element[] = [];
 
-  projectsInfo.forEach(({name, deployPath, sourcePath}, id) => {
+  projectsInfo.forEach(({ name, deployPath, sourcePath }, id) => {
     row.push(
-      <Col className="mb-4" key={id} >
-        <Project
-          name={name}
-          deployPath={deployPath}
-          sourcePath={sourcePath}
-        />
+      <Col className="mb-4" key={id}>
+        <Project name={name} deployPath={deployPath} sourcePath={sourcePath} />
       </Col>
     );
   });
 
   return (
-    <Row xs={1} md={2} lg={3} data-testid='projects'>
-      {row}
-    </Row>
+    <div>
+      <h4 className="my-5 text-center">{projectsTitle}</h4>
+      <Row xs={1} md={2} lg={3} data-testid="projects">
+        {row}
+      </Row>
+    </div>
   );
 }
 
