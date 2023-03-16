@@ -63,7 +63,7 @@ function App() {
           <Projects {...projects} />
         ))}
       </div>
-      <div className="d-flex justify-content-center mt-3 mb-3">
+      <div className="d-flex justify-content-center mt-5 mb-4">
         <h5>
           &copy; from{' '}
           <a href="https://it-forward.github.io/" target="_balnk">
