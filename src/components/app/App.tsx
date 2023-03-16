@@ -20,11 +20,11 @@ function App() {
 
   return (
     <Container>
-      <div className="mt-3">
+      <div className="mt-4">
         <div className="d-flex flex-column align-items-center">
           {makeProfileImg(profileImg)}
           <h1 className="mt-1 mb-3 profile-name">{data[0][0]}</h1>
-          <Row className="mb-5">
+          <Row className="mb-3">
             <Col className="sm-icon">
               <a
                 href={data[0][1]}
