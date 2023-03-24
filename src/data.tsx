@@ -15,6 +15,11 @@ const data: DataType = [
       projectsTitle: 'Web Projects',
       projectsInfo: [
         {
+          name: 'Story Books',
+          deployPath: 'https://story-books-x3k8.onrender.com',
+          sourcePath: 'https://github.com/husan-eshonqulov/story-books',
+        },
+        {
           name: 'Jobs API',
           deployPath: 'https://jobs-api.netlify.app',
           sourcePath: 'https://github.com/husan-eshonqulov/jobs-api',
