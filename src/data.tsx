@@ -16,7 +16,7 @@ const data: DataType = [
       projectsInfo: [
         {
           name: 'Story Books',
-          deployPath: 'https://story-books-x3k8.onrender.com',
+          deployPath: 'https://story-books.up.railway.app',
           sourcePath: 'https://github.com/husan-eshonqulov/story-books',
         },
         {
@@ -26,7 +26,7 @@ const data: DataType = [
         },
         {
           name: 'Chat App',
-          deployPath: 'https://chat-app-wavq.onrender.com',
+          deployPath: 'https://chat-app-00.up.railway.app',
           sourcePath: 'https://github.com/husan-eshonqulov/chat-app',
         },
         {
