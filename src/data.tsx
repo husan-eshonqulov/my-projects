@@ -96,21 +96,6 @@ const data: DataType = [
         },
       ],
     },
-    {
-      projectsTitle: 'Scratch Projects',
-      projectsInfo: [
-        {
-          name: 'Tank Battle',
-          deployPath: 'https://scratch.mit.edu/projects/599539683/fullscreen',
-          sourcePath: 'https://scratch.mit.edu/projects/599539683/editor',
-        },
-        {
-          name: 'Chrome Dino',
-          deployPath: 'https://scratch.mit.edu/projects/764332091/fullscreen',
-          sourcePath: 'https://scratch.mit.edu/projects/764332091/editor',
-        },
-      ],
-    },
   ],
 ];
 
